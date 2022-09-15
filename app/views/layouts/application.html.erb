@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Poteshare_App</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+
+  <body>
+    <header class="header">
+      <!-- ロゴ画像 -->
+      <!-- エリア検索 -->
+      <!-- キーワード検索 -->
+      <!-- ユーザー名 -->
+      <!-- メニュー -->
+      <div class="header-inner">
+        <div class="header-left-nav"></div>
+        <div class="header-right-nav"></div>
+      </div>
+    </header>
+
+    <%= yield %>
+
+    <footer class="footer">
+      <p>© 2020 POTEPAN.INC.</p>
+    </footer>
+  </body>
+</html>
